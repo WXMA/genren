@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.onebyone-min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/waterbubble.js"></script>
+		<script src="js/jquery.sliphover.min.js"></script>
+		<script>
+			$(function(){
+				$('#dowebok').fullpage({
+					anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+					menu: '#menu'
+				});
+			});
+        </script>
+	</head>
+	<body>
+		<nav>
+			<ul id="menu">
+				<li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+				<li data-menuanchor="page2"><a href="#page2">关于我</a></li>
+				<li data-menuanchor="page3"><a href="#page3">技术掌握</a></li>
+				<li data-menuanchor="page4"><a href="#page4">项目展示</a></li>
+				<li data-menuanchor="page5"><a href="#page5">联系我</a></li>
+			</ul>
+		</nav>
+		<div id="dowebok">
+			<div class="top section">
+				<header>
+					<h3 class="wow bounceInUp" data-wow-delay="0.6s">
+						Hello，I ' m  RedSpite
+					</h3>
+					<p class="wow bounceInUp" data-wow-delay="0.8s"> 
+						Life  doesn’t  get  easier, you just get stronger
+					</p>
+					<p class="wow bounceInUp" data-wow-delay="1s">
+						Details is the key to success
+					</p>
+					<a href="#page2" class="toAbout"></a>
+				</header>
+			</div>
+			<div class="about section" id="about">
+				<div class="about-txt">
+					<h3>
+						关于我
+					</h3>
+					<img src="img/tu_01.jpg"/>
+					<p>
+						学习技术不在于数量，而是质量，要把一门技术学精，才知道怎么用它才合理。
+					</p>
+					<p>
+						王晓梅
+					</p>
+					<p>
+						前端工程开发师
+					</p>
+					<a href="#page3" class="tojishu"></a>
+				</div>
+			</div>
+			<div class="jishu section">
+				<div class="jishu-txt">
+					<h3>
+						技术掌握
+					</h3>
+					<canvas id="a"></canvas>
+					<canvas id="b"></canvas>
+					<canvas id="c"></canvas>
+					<canvas id="d"></canvas>
+					<canvas id="e"></canvas>
+					<canvas id="f"></canvas>
+				</div>
+			</div>
+			
+			<div class="zhanshi section">
+				<div class="zhanshi-txt">
+					<h3>
+						项目展示
+					</h3>
+					<div id="onebyone_slider">
+                        <div class="oneByOne_item">
+                           <img src="img/binli_03.jpg" class="ob1_img_device1"  />
+				           <span class="ob1_title"><a href="https://wxma.github.io/binli/index.html">项目名称：宾利官网</a></span>
+				           <span class="ob1_description">项目时间：2016/04 -- 2016/05</span>
+						   <span class="ob1_button">个人职责：
+										   	<span class="ob2">
+										   		1.应用html,css,jquery完成公司平台的网站和系统界面开发；<br /><br />
+					                            2.负责平台通用组件的封装和页面代码的优化；<br /><br />
+					                            3.负责网站产品的迭代更新，参与产品的需求的制定；<br /><br />
+					                            4. 利用ajax等技术与后台工程师配合完成前后端的数据交互；<br /><br />
+					                            5.解决前端遇到的各种技术、性能、跨终端兼容问题；
+										   	</span>
+						   </span>	
+							
+				        </div>
+						<div class="oneByOne_item">
+							<img src="img/jingxiu.png" class="ob1_img_device1"  />
+							<span class="ob1_title"><a href=" https://wxma.github.io/jing/">项目名称：中关村校企景秀官网</a></span>
+							<span class="ob1_description">项目时间：2016/09 -- 2016/10</span>
+							<span class="ob1_button">个人职责：
+							       <span class="ob2">
+									       该项目是一个适应PC  iPad以及手机端的一个响应式网站。<br />
+									   1.参与产品讨论会议，明确产品定位及网站功能相关内容；<br />
+									   2.网页切图，与设计师进行紧密沟通交流，确保达到设计师的需求；<br /> 
+									   3.应用html5，css3，JavaScript原生语言完成网站开发；<br />
+									   4.应用媒体查询完成网站响应式开发，网站响应速度快；<br />
+									   5.使用第三方轮播组件bxslider实现首页的图片轮播；<br />
+									   6.用web标准规范页面代码，优化页面下载速度，提高用户体验；
+									</span>
+							</span>	
+							
+				        </div>
+						<div class="oneByOne_item">
+							<img src="img/WEISS.png" class="ob1_img_device1"  />
+							<span class="ob1_title"><a href="../wang/WEISS/index.html">项目名称：WEISS官网</a></span>
+							<span class="ob1_description">项目时间：2017/03 -- 2017/04</span>
+							<span class="ob1_button">个人职责：
+							          <span class="ob2">
+										   		1.应用html5，jquery完成网站开发，用less编译样式；<br /><br />
+												2.使用vue数据管理；<br /><br />
+												3.进行优化与维护；<br /><br />
+												4.使用Git 工具管理代码；<br /><br />
+												5.使用第三方轮播组件Swiper实现页面的图片轮播效果；<br />
+								      </span>
+							</span>	
+							
+						</div>			
+						<div class="oneByOne_item">
+							<img src="img/xi.png" class="ob1_img_device1"  />
+							<span class="ob1_title"><a href="https://xiaoyabowen.github.io/xwang/">项目名称：新希望官网</a></span>
+							<span class="ob1_description">项目时间：2017/06 -- 2017/07</span>
+							<span class="ob1_button">个人职责：
+							       <span class="ob2">
+										1.参与产品讨论会议，明确产品定位及网站功能相关内容；<br /><br />
+										2.网页切图，与设计师进行紧密沟通交流，确保达到设计师的需求；<br /><br />
+										3. 负责搭建web前端技术架构，运用css3属性实现页面交互特效；<br /><br />
+										4.与后台工程师合作，完成数据的调用；<br /><br />
+										5.上线前持续的优化前端体验和页面响应速度，优化代码并保持良好的兼容性，提升界面的友好与易用。<br /><br />
+								   </span>
+							</span>	
+							
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="contact section">
+				<div class="contact-txt">
+					<h3>
+						联系我
+					</h3>
+					<span style="margin-left: 355px;">灵感</span><span>代码</span><span>梦想</span><span>未来</span>
+					<p>注重效率，偏爱敏捷开发</p>
+					<p>喜欢尝试，期待新鲜事物  </p>
+					<p>前端即兴趣，兴趣即未来</p>
+					<p>行路有良友，便是捷径 </p>
+					<p>行路有良友，便是捷径 </p>
+					<ul>
+						<li>
+							<a href="https://github.com/WXMA">
+								
+								<img src="img/xiao_09.jpg" class="img1" />
+								<img src="img/git_03.jpg" class="img2" />
+								<span>Githup</span>
+								<img src="img/sanjiao_03.jpg" class="img4" />
+							</a>
+						</li>
+						<li>
+							<a href="https://mail.qq.com/cgi-bin/frame_html?sid=aqU2xcsd15Np5kwV&r=1149673d6d1ad58d2de8e746876b0820">
+								
+								<img src="img/xiao_11.jpg" class="img1"   />
+								<img src="img/xiao21_09.gif" class="img2" />
+								<span style="width: 155px; position: absolute; top: -49px; left: -50px;">2856586959@qq.com</span>
+								<img src="img/sanjiao_03.jpg" class="img5" />
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/xiao_13.jpg" class="img1" />
+								<img src="img/xiao21_11.jpg" class="img2" />
+								<img src="img/qq_03.jpg" class="img3" />
+								<img src="img/sanjiao_03.jpg" class="img4" />
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/xiao_15.jpg" class="img1" />
+								<img src="img/xiao21_13.jpg" class="img2"  />
+								<img src="img/weixin.jpg" class="img3" />
+								<img src="img/sanjiao_03.jpg" class="img4" />
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/xiao_17.jpg" class="img1" />
+								<img src="img/xiao21_15.jpg" class="img2" />
+								<span>Weibo</span>
+								<img src="img/sanjiao_03.jpg" class="img4" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+		
+		<script type="text/javascript" src="js/jquery.plugins-min.js"></script>
+		<script src="js/wow.min.js"></script>
+        <script type="text/javascript">
+		
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+				new WOW().init();
+			};
+		
+		</script>
+    </body>
+</html>

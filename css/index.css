@@ -1,0 +1,239 @@
+/*********nav开始**********/
+nav{
+	width: 100%; position: fixed; top: 0; left: 0; z-index: 2;
+}
+nav>ul{ 
+	width: 1100px; margin: 0 auto; padding-left: 900px; height: 50px; line-height: 50px; background: rgba(11,38,67,0.2);
+}
+ul>li{
+	float: left; width: 100px;  text-align: center;
+}
+ul>li>a{
+	color: white; font-size: 18px; font-family: "microsoft yahei"; display: block;
+}
+.active>a{
+	color: #c18512;  border-bottom: 3px solid #c18512;
+}
+
+/*********nav开始**********/
+/*********top开始**********/
+.top{
+	width: 100%; background: url(../img/geren1_01.jpg) no-repeat;  background-size: 100% 100%; height: 100vh;
+}
+.top header{
+	width: 1100px;  margin: 0 auto;   height: 100vh;
+}
+header h3{
+	padding-top: 290px; text-align: center;  color: #FFFFFF;  font-size: 50px; font-family: "Segoe Print"; margin-bottom: 10px;
+}
+header p{
+	text-align: center;  color: #FFFFFF; font-family: "microsoft yahei" ;  font-size: 32px;  padding-top: 20px;
+  }
+
+header .toAbout{
+    position: absolute;
+    z-index: 10000;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+}
+header .toAbout:before,header .toAbout:after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    animation: toAbout 4s infinite linear both;
+}
+header .toAbout:before{
+  margin-top:-20px ;
+}
+header .toAbout:after{
+   margin-top: -5px;
+}
+@keyframes toAbout {
+   0%{
+       opacity: 0; transform: translateY(10px) rotate(-45deg);
+   }
+    50%{
+        opacity: 1; transform: translateY(20px)  rotate(-45deg);
+    }
+    100%{
+        opacity: 0; transform: translateY(70px)  rotate(-45deg);
+    }
+}
+/*********top结束**********/
+/*********about开始**********/
+.about{
+	width: 100%; background: url(../img/about-bei_02.jpg) no-repeat; background-size: 100% 100%; height: 100vh;
+}
+.about .about-txt{
+	width: 1100px; margin: 0 auto; background: url(../img/xin.jpg) no-repeat 472px 170px; position: relative;
+}
+.about-txt h3{
+	text-align: center; padding-top: 120px; margin-bottom: 90px;  color: #100f0f; font-size: 28px; font-family: "microsoft yahei";
+}
+.about-txt>img{
+	max-width: 200px; width: 40%;border-radius: 50%;    vertical-align: middle; display: block; margin-left: 450px; margin-bottom: 50px;
+}
+.about-txt p{
+	text-align: center; font-size: 24px; line-height: 30px; margin-top: 20px; color: #333333; font-family: "宋体";
+}
+.about-txt .tojishu{
+    position: absolute;
+    z-index: 10000;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+}
+.about-txt .tojishu:before,.about-txt .tojishu:after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid #A58964;
+    border-bottom: 3px solid #A58964;
+    animation: tojishu 4s infinite linear both;
+}
+.about-txt .tojishu:before{
+  margin-top:-20px ;
+}
+.about-txt .tojishu:after{
+   margin-top: -5px;
+}
+@keyframes tojishu {
+   0%{
+       opacity: 0; transform: translateY(10px) rotate(-45deg);
+   }
+    50%{
+        opacity: 1; transform: translateY(20px)  rotate(-45deg);
+    }
+    100%{
+        opacity: 0; transform: translateY(70px)  rotate(-45deg);
+    }
+}
+/*********about结束**********/
+/*********jishu开始**********/
+.jishu{
+	width: 100%;  background: url(../img/lianxiwo-bei_02.jpg) no-repeat; background-size: 100% 100%; height: 100vh;
+}
+.jishu .jishu-txt{
+	width: 1100px; margin: 0 auto; background: url(../img/wxin_05.jpg) no-repeat 429px 172px;
+}
+.jishu-txt h3{
+	text-align: center; padding-top: 120px; margin-bottom: 87px;  color: white; font-size: 28px; font-family: "microsoft yahei";
+}
+.jishu-txt #a{
+	margin-left: 170px; margin-right: 50px; margin-bottom: 30px;
+}
+.jishu-txt #b{
+	margin-right: 50px; margin-bottom: 35px;
+}
+.jishu-txt #c{
+        margin-bottom: 35px;
+}
+.jishu-txt #d{
+	 margin-left: 170px; margin-right: 50px; 
+}
+.jishu-txt #e{
+	margin-right: 50px; 
+}
+/*********jishu结束**********/
+/*********zhanshi开始**********/
+.zhanshi{
+	width: 100%;  background: url(../img/about-bei_02.jpg) no-repeat; background-size: 100% 100%; height: 100vh; position: relative;
+}
+.zhanshi-txt{ width: 1100px; margin: 0 auto; background: url(../img/zhanxin_08.gif) no-repeat 429px 165px;}
+.zhanshi-txt h3{
+	text-align: center; padding-top: 120px;  color: #100f0f; font-size: 28px; font-family: "microsoft yahei";
+}
+/*********zhanshi结束**********/
+/*********contact开始**********/
+.contact{
+	width: 100%;  background: url(../img/lianxiwo-bei_02.jpg) no-repeat; background-size: 100% 100%; 
+}
+.contact .contact-txt{
+	width: 1100px; margin: 0 auto; 
+}
+.contact-txt h3{
+	text-align: center; padding-top: 140px; padding-bottom: 45px;  color: white; font-size: 28px; font-family: "microsoft yahei";
+}
+.contact-txt>span{
+	 font-size: 27px; font-family: "microsoft yahei"; margin-right: 57px; 
+} 
+.contact-txt>span:nth-of-type(1){
+	 color: #f8970e;
+} 
+.contact-txt>span:nth-of-type(2){
+	 color: #0acf2a;
+}
+.contact-txt>span:nth-of-type(3){
+	 color: #1888c9;
+} 
+.contact-txt>span:nth-of-type(4){
+	 color: #a2990f;
+} 
+.contact-txt>p{
+	text-align: center; color: white; font-family: "microsoft yahei"; font-size: 22px; margin-bottom: 40px;
+ }
+.contact-txt>p:nth-of-type(1){
+	margin-top: 50px;
+}
+.contact-txt>ul{
+	margin-left: 420px; margin-top: 60px;
+}
+.contact-txt>ul>li{
+	float: left; width: 40px ; margin-right: 15px;
+}
+.contact-txt>ul>li>a{
+	 width: 40px ; position: relative; display: block;
+}
+.contact-txt>ul>li>a>.img1{
+	 width: 40px ;
+}
+.contact-txt>ul>li>a>.img2{
+	  width: 40px; position: absolute; top: 0px; left: 0; opacity: 0;  
+}
+.contact-txt>ul>li>a>.img3{
+	width: 200px; height: 200px; position: absolute; opacity: 0;  top: -220px; left: -80px; border: 1px solid #1888c9; transition: all 0.3s ease-in-out 0.2s;
+}
+.contact-txt>ul>li>a>.img4{ 
+	 position: absolute;   top: -19px; left: 12px; opacity: 0;  transition: all 0.3s ease-in-out 0.2s;
+}
+.contact-txt>ul>li>a>span{
+	opacity: 0; position: absolute; top: -49px; left: -7px;  width: 55px; height: 30px; line-height: 30px; background: #1888c9; border-radius: 5%; color: white; text-align: center; font-size: 14px; transition: all 0.3s ease-in-out 0.2s;
+ }
+.contact-txt>ul>li>a>.img5{ 
+	 position: absolute;   top: -19px; left: 12px; opacity: 0;  transition: all 0.3s ease-in-out 0.2s;
+}
+.contact-txt>ul>li:hover>a>.img2{
+	 opacity: 1; width: 40px; position: absolute; top: 0px; left:0px; 
+}
+.contact-txt>ul>li:hover>a>.img1{
+	opacity: 0;
+}
+.contact-txt>ul>li:hover>a>.img3{
+	 opacity: 1; 
+}
+.contact-txt>ul>li:hover>a>.img4{
+	 opacity: 1; 
+}
+.contact-txt>ul>li:hover>a>span{
+	 opacity: 1; 
+}
+.contact-txt>ul>li:hover>a>.img5{
+	 opacity: 1; 
+}
+/*********contact结束**********/
+
+
+
+
+
+
+
